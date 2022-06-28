@@ -1,0 +1,12 @@
+/*
+    include: 타입스크립트 위치 알려줌
+    compilerOptions - outDir: 빌드 파일
+    compilerOptions - target: 빌드 버전
+*/
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "outDir": "build",
+        "target": "ES6"
+    }
+}

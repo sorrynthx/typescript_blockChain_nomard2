@@ -1,0 +1,31 @@
+1. init
+npm init
+
+2. 불필요 내용 삭제
+package.json에서 index.js, test 삭제
+
+3. 타입스크립트 설치
+npm install -D typescript
+
+4. src 폴더 생성
+
+5. index.ts 생성
+
+6. tsconfig.json 생성 및 코드 추가
+{
+    "include": [
+        "src"
+    ],
+    "compilerOptions": {
+        "outDir": "build"
+    }
+}
+
+7. package.json에서 build 추가
+"scripts": {
+    "build": "tsc",
+    "target": "ES6"
+  },
+
+
+8. npm run build ---> 타입스크립트 빌드 ---> build라는 폴더 생성됨
