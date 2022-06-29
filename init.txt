@@ -29,3 +29,5 @@ npm install -D typescript
 
 
 8. npm run build ---> 타입스크립트 빌드 ---> build라는 폴더 생성됨
+
+9. tsconfig.json lib 추가
