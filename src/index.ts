@@ -1,8 +1,9 @@
-import {exit, init} from "myPackage";
+import {exit, init} from "./myPackage";
 
+var config = {
+    debug: false,
+    url: 'http://localhost:'
+}
 
-init({
-    url: "http://localhost:3000"
-});
-
+init(config);
 exit(1);
