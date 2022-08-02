@@ -31,3 +31,7 @@ npm install -D typescript
 8. npm run build ---> 타입스크립트 빌드 ---> build라는 폴더 생성됨
 
 9. tsconfig.json lib 추가
+
+
+10. npm i -D ts-node 설치 + npm i nodemon 설치
+컴파일 없이 바로 실행 + 서버 재실행 필요 없이 지속
