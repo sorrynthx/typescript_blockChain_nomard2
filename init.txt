@@ -35,3 +35,11 @@ npm install -D typescript
 
 10. npm i -D ts-node 설치 + npm i nodemon 설치
 컴파일 없이 바로 실행 + 서버 재실행 필요 없이 지속
+
+
+* DefinitelyTyped ===> npm 모듈을 타입스크립트로 정의해놓은 레파지토리
+https://www.github.com/DefinitelyTyped/DefinitelyTyped
+
+
+11. typescript node 설치 
+npm i -D @types/node
